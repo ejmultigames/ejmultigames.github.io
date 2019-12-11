@@ -1,3 +1,4 @@
+//nav bar code below----------------------------------------------------------------------------------------------------
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
@@ -7,8 +8,6 @@ function closeNav() {
 }
 
  //search button below---------------------------------------------------------------------------------------------------
-
- // when user clicks on the button, toggle between hiding and showing the dropdown content
 function myFunction() {
 	document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -21,11 +20,7 @@ function filterFunction() {
 	a = div.getElementsByTagName("a");
 	for (i = 0; i < a.length; i++) {
 		txtValue = a[i].textContent || a[i].innerText;
-		if (txtValue.toUpperCase().indexOf(filter) > -1)
-{
-		a[i].style.display = "";
-	  } else {
-	   	a[i].style.display = "none";
-	  }
+		if (txtValue.toUpperCase().indexOf(filter) > -1) a[i].style.display = "";
+	  else a[i].style.display = "none";
 	}
 }

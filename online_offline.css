@@ -1,0 +1,20 @@
+body {
+background-color: lightgrey;
+}
+table,th, td {
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th, td {
+	padding: 2px;
+}
+table tr:nth-chiled(odd) {
+	background-color: #eee;
+}
+table tr:nth-chiled(even) {
+	background-color: #fff;
+}
+table th {
+	background-color: black;
+	color: white;
+}

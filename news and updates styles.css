@@ -1,0 +1,209 @@
+body {
+	background-color: lightgrey;
+	
+}
+
+#div01 {
+	border:1px solid black;
+	font-size: 100%;
+	padding:5px; 
+	background-color: lightgrey;
+	color: black;
+	position:fixed;
+	left: 0px;
+	top:0;
+	cursor:pointer;
+	z-index: 2;
+}
+#div01:hover {
+	background-color: grey;
+}
+#div02 {
+	border:1px solid black;
+	font-size:35px;
+	padding:5px;
+	background-color:lightgrey;
+	position:fixed;
+	left:88px;
+	z-index:2;
+	top:0px;
+	text-align: left;
+	width:100%;
+	height:33px;
+}
+#div03 {
+	border:1px solid black;
+	padding: 5px;
+	background-color: lightgrey;
+	position: fixed;
+	right:0px;
+	text-align: center;
+	font-size: 20px;
+	width:150px;
+	z-index:3;
+	height: 33px;
+	top:0px;
+}
+
+h1 {
+	color: black;
+	text-align:center;
+	font-family:strong;
+	margin:50px;
+}
+h2 {
+color:black;
+text-align:center;
+font-family:strong;
+}
+
+#p01 {
+	color:black;
+}
+
+#a01 {
+padding: 5px;
+background-color: lightgrey;
+border:1px solid black;
+cursor:pointer;
+margin: 60px;
+top:0px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  margin:10px;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* search bar below -------------------------------------------------*/
+
+.dropbtn {
+  color: black;
+  padding: 15px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: lightgrey;
+  height: 45px;
+  font-size: 20px;
+}
+
+.dropbtn:hover {
+  background-color: grey;
+}
+
+/* the search feild */
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 15px 13px;
+  background-repeat: no-repeat;
+  font-size: 17px
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background-color: black /*search box*/;
+  color: lightgrey;
+}
+
+#myInput:focus {outline: 3px solid grey; padding: 5px;}
+
+.dropdown {
+  position: fixed;
+  z-index: 5;
+  top:0px;
+  right: 65px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black/*#f6f6f6*/;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 55;
+}
+
+.dropdown-content a {
+  color: lightgrey;
+  font-size: 16px;
+  padding: 13px 16px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid grey; /*change this to get rid of the boxes around the text in search menu*/
+}
+
+.dropdown a:hover {background-color: black; color: white; margin: 5px; transition: 0.5s;}
+
+.show {display: block;}
+
+/* options sidenav ------------------------------------------------------------------------------------*/
+
+.sidenav2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+.sidenav2 a:hover {
+  color: #f1f1f1;
+  margin:10px;
+}
+.sidenav2 .closebtn2 {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}

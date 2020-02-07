@@ -1,40 +1,3 @@
-//function setCookie(cname, cvalue, exdays) {
-//	var d = new Date();
-//	d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-//	var expires = "expires="+d.toUTCString();
-//	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-//}
-//	
-//function getCookie(cname) {
-//	var name = cname + "=";
-//	var ca = document.cookie.split(';');
-//	for(var i = 0; i < ca.length; i++) {
-//		var c = ca[i];
-//		while (c.charAt(0) == ' ') {
-//			c = c.substring(1);
-//		}
-//		if (c.indexOf(name) == 0) {
-//			return c.substring(name.length, c.length);
-//		}
-//    }
-//	 return "";
-//}
-//
-//function checkCookie() {
-//	var user = getCookie("username");
-//	if (user != "") {
-//		alert("welcome again " + user);
-//	} else {
-//	  user = prompt("please enter your name:", "");
-//	  if (user != "" && user != null) {
-//		setCookie("username", user, 365);
-//	  }
-//	}
-//}
-
-
-
-
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
@@ -56,6 +19,12 @@ var TimesDownloaded1 = 0;
 var TimesDownloaded2 = 0;
 var TimesDownloaded3 = 0;
 var TimesDownloaded4 = 0;
+var TimesDownloaded5 = 0;
+var TimesDownloaded6 = 0;
+var TimesDownloaded7 = 0;
+var TimesDownloaded8 = 0;
+var TimesDownloaded9 = 0;
+var TimesDownloaded10 = 0;
 
 function change1() {
 	TimesDownloaded1 += 1;
@@ -72,6 +41,30 @@ function change3() {
 function change4() {
 	TimesDownloaded4 += 1;
 	document.getElementById("Download4").innerHTML = "downloaded- v1.3.0: "+ TimesDownloaded4 +" times. thanks for downloading enjoy!";
+}
+function change5() {
+	TimesDownloaded5 += 1;
+	document.getElementById("Download5").innerHTML = "downloaded- v1.4.0: "+ TimesDownloaded5 +" times. thanks for downloading enjoy!";
+}
+function change6() {
+	TimesDownloaded6 += 1;
+	document.getElementById("Download6").innerHTML = "downloaded- v1.5.0: "+ TimesDownloaded6 +" times. thanks for downloading enjoy!";
+}
+function change7() {
+	TimesDownloaded7 += 1;
+	document.getElementById("Download7").innerHTML = "downloaded- v2.5.0: "+ TimesDownloaded7 +" times. thanks for downloading enjoy!";
+}
+function change8() {
+	TimesDownloaded8 += 1;
+	document.getElementById("Download8").innerHTML = "downloaded- v2.6.0: "+ TimesDownloaded8 +" times. thanks for downloading enjoy!";
+}
+function change9() {
+	TimesDownloaded9 += 1;
+	document.getElementById("Download9").innerHTML = "downloaded- v2.7.0: "+ TimesDownloaded9 +" times. thanks for downloading enjoy!";
+}
+function change10() {
+	TimesDownloaded10 += 1;
+	document.getElementById("Download10").innerHTML = "downloaded- Mac os v2.7.0: "+ TimesDownloaded10 +" times. thanks for downloading enjoy!";
 }
 ///////////////////////////////////////////////////////////////////////////
 

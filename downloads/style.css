@@ -93,6 +93,19 @@ border:1px solid black;
 cursor:pointer;
 }
 
+iframe {
+  height: 320px;
+  width: 500px;
+  align-self: center;
+  /*height:190px;
+  width:650px;*/
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+  /*text-align: center;*/
+  display: block;
+
+}
+
 /* menu sidenav---------------------------------------------------------------------------------------*/
 
 .sidenav {

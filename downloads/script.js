@@ -25,6 +25,8 @@ var TimesDownloaded7 = 0;
 var TimesDownloaded8 = 0;
 var TimesDownloaded9 = 0;
 var TimesDownloaded10 = 0;
+var TimesDownloaded11 = 0;
+var TimesDownloaded12 = 0;
 
 function change1() {
 	TimesDownloaded1 += 1;
@@ -60,11 +62,19 @@ function change8() {
 }
 function change9() {
 	TimesDownloaded9 += 1;
-	document.getElementById("Download9").innerHTML = "downloaded- v2.7.0: "+ TimesDownloaded9 +" times. thanks for downloading enjoy!";
+	document.getElementById("Download9").innerHTML = "downloaded- Windows v2.7.0: "+ TimesDownloaded9 +" times. thanks for downloading enjoy!";
 }
 function change10() {
 	TimesDownloaded10 += 1;
 	document.getElementById("Download10").innerHTML = "downloaded- Mac os v2.7.0: "+ TimesDownloaded10 +" times. thanks for downloading enjoy!";
+}
+function change11() {
+	TimesDownloaded11 += 1;
+	document.getElementById("Download11").innerHTML = "downloaded- Windows v3.7.0: "+ TimesDownloaded11 +" times. thanks for downloading enjoy!";
+}
+function change12() {
+	TimesDownloaded12 += 1;
+	document.getElementById("Download12").innerHTML = "downloaded- Mac os v3.7.0: "+ TimesDownloaded12 +" times. thanks for downloading enjoy!";
 }
 ///////////////////////////////////////////////////////////////////////////
 
